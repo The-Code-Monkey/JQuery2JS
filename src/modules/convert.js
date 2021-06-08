@@ -41,8 +41,7 @@ export const clearConverted = () => dispatch => {
 
 export const convert = data => dispatch => {
   const jQuery = data.data;
-  let newStr = '';
-  const jQuerySplit = data.data.split(/(?<!['"])\./g);
+  const jQuerySplit = jQuery.split(/(?<!['"])\./g);
   jQuerySplit.forEach((item, i) => {
     switch (true) {
       case item === 'show()': {
