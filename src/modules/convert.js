@@ -75,6 +75,12 @@ export const convert = data => dispatch => {
         dispatch(updateVanillaJS(newItem));
         break;
       }
+      case item.match(/^extend\([,:{}A-z0-9 ]+(, *[,:{}A-z0-9 ]+)+\)$/g) !== null: {
+        console.log('matched object.assign');
+        const newItem = item.replace("extend", "Object.assign");
+        dispatch(updateVanillaJS(newItem));
+        break;
+      }
       default: {
         console.log('matched nothing');
         dispatch(updateVanillaJS(item));
