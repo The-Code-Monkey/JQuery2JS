@@ -1,6 +1,14 @@
 {
   "extends": [
-    "config:base"
+    ":dependencyDashboard",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":ignoreModulesAndTests",
+    ":autodetectPinVersions",
+    ":prHourlyLimit2",
+    ":prConcurrentLimit20",
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all"
   ],
   "labels": ["dependencies"],
   "automerge": "true"
