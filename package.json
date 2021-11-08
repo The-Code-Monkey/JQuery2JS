@@ -16,7 +16,7 @@
     "redux-form": "latest",
     "redux-thunk": "2.3.0",
     "sanitize.css": "7.0.3",
-    "warning": "4.0.2"
+    "warning": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
