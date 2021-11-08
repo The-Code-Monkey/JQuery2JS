@@ -6443,10 +6443,10 @@ sane@~1.6.0:
     walker "~1.0.5"
     watch "~0.10.0"
 
-sanitize.css@7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-7.0.3.tgz#121929e784381013256cd4805d1d8983a95ffae3"
-  integrity sha512-jV5ON1hb1vYixnWu7FOboBhYNowww+YYM04gOS2vGaXUmXciJ3YKVjZcnRo74R8OFjSySaXRJjzkjcl1emr1oA==
+sanitize.css@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-13.0.0.tgz#2675553974b27964c75562ade3bd85d79879f173"
+  integrity sha512-ZRwKbh/eQ6w9vmTjkuG0Ioi3HBwPFce0O+v//ve+aOq1oeCy7jMV2qzzAlpsNuqpqCBjjriM1lbtZbF/Q8jVyA==
 
 sass-graph@2.2.5:
   version "2.2.5"
