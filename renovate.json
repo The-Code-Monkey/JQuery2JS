@@ -11,6 +11,9 @@
   ],
   "labels": ["dependencies"],
   "automerge": "true",
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  },
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
