@@ -12,7 +12,7 @@
     "react-router": "4.3.1",
     "react-scripts": "1.1.5",
     "reactstrap": "9.0.1",
-    "redux": "4.0.0",
+    "redux": "4.1.2",
     "redux-form": "latest",
     "redux-thunk": "2.4.0",
     "sanitize.css": "13.0.0",
